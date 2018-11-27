@@ -7,7 +7,7 @@ import Header from './src/components/header';
 //import AlbumList from './src/components/AlbumList';
 
 // Create a component
-const App = () => (
+const Albums = () => (
   <Header />
   <text> The Hidden Genius Project </text>
   // );
@@ -18,4 +18,4 @@ const App = () => (
 );
 
 // Render it to the device
-AppRegistry.registerComponent('albums', () => App);
+AppRegistry.registerComponent('albums', () => Almums);
